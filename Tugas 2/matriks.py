@@ -1,4 +1,4 @@
-import os
+import os # module for accessing operating system
 
 besar = int(input('Masukan nilai n\t: '))
 matriks_1 = [jum for jum in range(besar)] # row
