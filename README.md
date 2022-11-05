@@ -3,11 +3,10 @@
 Repo ini berisikan kumpulan tugas kelompok Cyber Security 1 Lab MBC divisi Cyber Security
 
 **Branch:**
-'''
-git branch <nama>
-git checkout <nama>
-git push -u origin <nama>
-'''
+
+1. git branch <nama>
+2. git checkout <nama>
+3. git push -u origin <nama>
 
 Nama Anggota :
 
