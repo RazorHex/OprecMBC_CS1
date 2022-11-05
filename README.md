@@ -2,6 +2,13 @@
 
 Repo ini berisikan kumpulan tugas kelompok Cyber Security 1 Lab MBC divisi Cyber Security
 
+**Branch:**
+'''
+git branch <nama>
+git checkout <nama>
+git push -u origin <nama>
+'''
+
 Nama Anggota :
 
 1. Ahda Akmalul Ilmi
