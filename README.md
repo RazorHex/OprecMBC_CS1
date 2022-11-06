@@ -8,6 +8,13 @@ Repo ini berisikan kumpulan tugas kelompok Cyber Security 1 Lab MBC divisi Cyber
 2. git checkout (nama)
 3. git push -u origin (nama)
 
+**Adding file to main:**
+1. git checkout main
+2. git checkout (nama branch) -- (file path)
+3. git status <-- memeriksa status dari file yang sudah di add
+4. git commit -m '(Message)'
+5. git push
+
 Nama Anggota :
 
 1. Ahda Akmalul Ilmi
