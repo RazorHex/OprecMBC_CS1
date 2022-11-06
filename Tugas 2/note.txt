@@ -9,6 +9,7 @@ cd [Nama-File] = change direcotory menuju file tersebut
 ls = long listing 
 
 **Jika ingin menambahkan file pada branch lain
+Lokasi asal terminal : Branch Tujuan
 git checkout [nama branch tujuan -- [nama file yang ingin dikirim]
 !!!!!!!!!!
 (Perhatikan Directorynya)
