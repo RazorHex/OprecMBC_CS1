@@ -5,9 +5,9 @@
 _Tugas:_
 
 1. [soal1.py](https://github.com/RazorHex/MBC-Tugas/blob/rafii/Tugas%202/Soal1.py)
-2. [soal2](https://github.com/RazorHex/MBC-Tugas/blob/rafii/Tugas%202/soal2.py)
-3. [soal3](https://github.com/RazorHex/MBC-Tugas/blob/rafii/Tugas%202/soal3.py)
-4. [soal4](https://github.com/RazorHex/MBC-Tugas/blob/rafii/Tugas%202/soal4.py)
+2. [soal2.py](https://github.com/RazorHex/MBC-Tugas/blob/rafii/Tugas%202/soal2.py)
+3. [soal3.py](https://github.com/RazorHex/MBC-Tugas/blob/rafii/Tugas%202/soal3.py)
+4. [soal4.py](https://github.com/RazorHex/MBC-Tugas/blob/rafii/Tugas%202/soal4.py)
 
 _Note: By Bang Ahda_
 
