@@ -1,24 +1,30 @@
-import os
+total = input('Total Belanja\t: ')
 
-n = int(input("Jumlah Total Belanja = "))
-member = input("Apakah member (y/t) = ")
+while not total.replace('.','').isdigit() or not len(total) > 5:
+  total = input('Total Belanja\t: ')
 
-def belanja():
-    if n > 1000000:
-        if member == "y" :
-            print("Selamat anda mendapatkan diskon 8%")
-        else:
-            print("Selamat anda mendapatkan diskon 3%")
-    else :
-        if member == "y" :
-            print("Selamat anda mendapatkan diskon 7%")
-        else:
-            print("Selamat anda mendapatkan diskon 2%")
-            
-os.system("cls")
+member = input('Apakah member (y/n)\t: ')[0].lower()
 
-belanja()
+if member == 'y':
+  num = int(total.replace('.', ''))
+  # diskon 5%
+  dis = 5
+  if 500000 <= num < 1000000:
+    # diskon 2%
+    dis = dis + 2
+    print('Diskon anda\t: ' + str(dis) + '%')
+    print('Total anda\t: ', num - (num * dis / 100))
+  elif num >= 1000000:
+    #diskon 3%
+    dis = dis + 3
+    print('Diskon anda\t: ' + str(dis) + '%')
+    print('Total anda\t: ', num - (num * dis / 100))
+  else:
+    print('Diskon anda\t: ' + str(dis) + '%')
+    print('Total anda\t: ', num - (num * dis / 100))
 
+elif member == 'n':
+  print('Total belanja anda\t: ' + total)
 
-# *** NOTe :
-# if member atau tidak member dan if total belanja 500k <= x <=1jt = diskon 2% else
+else:
+  print('Error: wrong member variable')
