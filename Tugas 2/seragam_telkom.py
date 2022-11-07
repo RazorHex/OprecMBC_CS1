@@ -7,12 +7,15 @@ data = {
   'sabtu' : 'bebas'
 }
 
-hari = input('Masukan hari\t: ')
+hari = input('Masukan hari\t: ').lower()
 
 # note:
 #  try akan mencoba untuk menjalankan program kalau ada error yang akan di jalankan adalah program dalam except
-try:
-  val = data.get(hari)
-  print('Seragam ' + hari + '\t: ' + val)
-except:
-  print('Seragam tidak ditemukan')
+# try:
+#   val = data.get(hari)
+#   print('Seragam ' + hari + '\t: ' + val)
+# except:
+#   print('Seragam tidak ditemukan')
+
+val = data.get(hari, '-')
+print('Seragam ' + hari + '\t: ' + val)
