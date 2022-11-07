@@ -1,7 +1,7 @@
-total = input('Total Belanja\t: ')
+total = input('Total Belanja\t: ') #inisialisasi 
 
 while not total.replace('.','').isdigit() or not len(total) > 5:
-  total = input('Total Belanja\t: ')
+  total = input('Total Belanja\t: ') #Jika True, dia akan menjalankan ini
 
 member = input('Apakah member (y/n)\t: ')[0].lower()
 
