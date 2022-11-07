@@ -24,7 +24,19 @@ if member == 'y':
     print('Total anda\t: ', num - (num * dis / 100))
 
 elif member == 'n':
-  print('Total belanja anda\t: ' + total)
+  num = int(total.replace('.', ''))
+  if 500000 <= num < 1000000:
+    # diskon 2%
+    dis = 2
+    print('Diskon anda\t: ' + str(dis) + '%')
+    print('Total anda\t: ', num - (num * dis / 100))
+  elif num >= 1000000:
+    #diskon 3%
+    dis = 3
+    print('Diskon anda\t: ' + str(dis) + '%')
+    print('Total anda\t: ', num - (num * dis / 100))
+  else:
+    print('Total belanja anda\t: ' + total)
 
 else:
   print('Error: wrong member variable')
