@@ -1,5 +1,8 @@
 import os
 
+n = int(input("Jumlah Total Belanja = "))
+member = input("Apakah member (y/t) = ")
+
 def belanja():
     if n > 1000000:
         if member == "y" :
@@ -12,8 +15,6 @@ def belanja():
         else:
             print("Selamat anda mendapatkan diskon 2%")
             
-n = int(input("Jumlah Total Belanja = "))
-member = input("Apakah member (y/t) = ")
 os.system("cls")
 
 belanja()
